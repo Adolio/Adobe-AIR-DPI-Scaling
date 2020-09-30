@@ -1,0 +1,25 @@
+{
+	"config": "air",
+	"compilerOptions": {
+		"output": "bin/Starling-1440p.swf",
+		"library-path": ["lib"],
+		"source-path": [
+			"src",
+			"media"
+		],
+		"default-size": {
+			"width": 2560,
+			"height": 1440
+		}
+	},
+	"application": "application.xml",
+	"files": [
+		"src/Main.as"
+	],
+	"airOptions": {
+		"windows": {
+			"target": "native",
+			"output": "bin/Main.exe"
+		}
+	}
+}
